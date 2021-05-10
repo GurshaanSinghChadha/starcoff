@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <style>
+    body{
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .hero{
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+      background: url("bg.jpeg");
+      background-size: cover;
+    }
+    .hero .pic img{
+      width: 500px;
+      height: 300px;
+      max-width:60%;
+      display: block;
+      margin: 0 auto 0 auto;
+     
+    }
+    .hero .pic h1{
+      color: white;
+    }
+    .hero .pic span{
+     color: #7183eb;
+    } 
+    .hero .side{
+      width: 70px;
+      height: 100%;
+      max-width: 100%;
+      float: left;
+      margin: 0 0 0 0 ;
+      backdrop-filter: blur(8px);
+     max-height: 74%;
+    }
+    .hero .btn{
+      margin-top: 2vh;
+     
+    }
+   .card{
+     margin:10 auto ;
+   }
+   .about{
+     width: 100%;
+     max-width: 100%;
+     height: auto;
+text-align: center;
+   }
+   .about h1{
+     margin: 0 auto 0 auto;
+   }
+   .btn1{
+     width: 100%;
+     max-width: 100%;
+     text-align: center;
+     margin-top: 2vh;
+   }
+  </style>
+  <body>
+    <div class="hero">
+    <nav class="navbar navbar-expand-lg navbar-dark " style="backdrop-filter: blur(8px);color: #7de398;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Starcoff</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+               
+          </ul>
+         
+        </div>
+      </div>
+    </nav>
+    <div class="side">
+
+    </div>
+    <div class="pic">
+      <img src="1.jpg">
+      <h1>Coffee is<span> not </span>a drink.<br> It's a <span>feeling</span></h1>
+    </div>
+    <div class="btn">
+      <a href="#"><button class="btn btn-primary" type="submit">Reserve a table</button></a>
+    </div>
+    <div class="container">
+      
+    </div>
+</div>
+<div class="row">
+  <div class="col-sm-6">
+    <div class="card">
+      <img src="2.jpg">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">Coffee is a brewed drink prepared from roasted coffee beans, the seeds of berries from certain Coffea species. </p>
+ 
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">AFFOGATO</li>
+    <li class="list-group-item">ESPRESSO AMERICANO</li>
+    <li class="list-group-item">CAPPUCCINO</li>
+    <li class="list-group-item">COLD BREW COFFEE</li>
+    <li class="list-group-item">DOUBLE ESPRESSO (DOPPIO)</li>
+  </ul>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <img src="3.jpg">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special Cookies with Coffee</h5>
+        <p class="card-text">A biscuit is "any of various hard or crisp dry baked product" similar to the American English terms cracker or cookie</p>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item"> Lotus biscuits</li>
+    <li class="list-group-item">Bourbon</li>
+    <li class="list-group-item">Shortbread</li>
+    <li class="list-group-item">Chocolate digestive</li>
+    <li class="list-group-item">Chocolate hobnob</li>
+  </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="btn1">
+  <a href="#"><button class="btn btn-primary" type="submit">Locate us nearby</button></a>
+</div>
+<div class="about" id="about">
+  <h1>About Us</h1>
+  <p> We are a group of coffee house named "StarCoff".<br> We provide our services across the globe to our customers.We can provide you with meeting rooms for your company or provide your  honourable company with our Coffee service .<br><b>With a hope to provide you the best</b> </p>
+</div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.min.js" integrity="sha384-lpyLfhYuitXl2zRZ5Bn2fqnhNAKOAaM/0Kr9laMspuaMiZfGmfwRNFh8HlMy49eQ" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
